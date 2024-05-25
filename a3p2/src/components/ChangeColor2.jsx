@@ -19,7 +19,7 @@ function ChangeColor2() {
       >
         Color Box 2
       </div>
-      <button onClick={handleChangeColor}>Change Color</button>
+      <button onClick={handleChangeColor}>Change its  Color</button>
     </div>
   );
 }
