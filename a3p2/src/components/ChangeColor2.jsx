@@ -8,6 +8,7 @@ function ChangeColor2() {
   const handleChangeColor = () => {
     // complete the missing code
     divRef.current.style.backgroundColor="blue";
+
   };
 
   return (
@@ -16,7 +17,7 @@ function ChangeColor2() {
         ref={divRef}
         style={{ width: "100px", height: "100px", backgroundColor: "red" }}
       >
-        Color Box
+        Color Box 2
       </div>
       <button onClick={handleChangeColor}>Change Color</button>
     </div>
